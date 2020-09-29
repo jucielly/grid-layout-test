@@ -18,13 +18,12 @@
 }
 
 .title-container {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   color: var(--font-default);
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   padding: 70px 0px 70px 0px;
+  text-align: center;
 }
 
 .btn {
@@ -49,4 +48,93 @@
 .btn-header:focus {
   outline: none;
   background-color: var(--background);
+}
+
+/*main-section*/
+
+.category-card {
+  box-shadow: var(--box-shadow);
+}
+.nature-card {
+  background-image: url(/src/assets/nature.png);
+  background-size: cover;
+  height: 330px;
+  grid-area: nature;
+}
+
+.daily-card {
+  background-image: url(/src/assets/daily.png);
+  background-size: cover;
+  grid-area: daily;
+}
+
+.together-card {
+  background-image: url(/src//assets/together.png);
+  background-size: cover;
+  height: 330px;
+  grid-area: together;
+}
+
+.analisys-card {
+  background-image: url(/src/assets/analisys.png);
+  background-size: cover;
+  height: 330px;
+  grid-area: analisys;
+}
+
+.picture-card {
+  background-image: url(/src//assets/pictures.png);
+  background-size: cover;
+  grid-area: picture;
+}
+
+.categories-container {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-areas:
+    "nature daily daily"
+    "together together together"
+    "analisys analisys picture";
+}
+
+.card-content {
+  color: var(--font-default);
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.card-content h3 {
+  font-size: 3em;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.card-content p {
+  font-weight: bold;
+}
+
+.together {
+  margin-top: 90px;
+}
+.analisys {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.categories-title {
+  color: var(--font-details);
+  font-weight: bold;
+  font-size: 3em;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.categories-p {
+  color: var(--font-details);
+  font-weight: bold;
+  margin-bottom: 50px;
 }
