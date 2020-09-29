@@ -1,0 +1,52 @@
+/*header */
+.header-background {
+  background: url(/src/assets/background.png);
+  background-size: cover;
+  height: 550px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  padding-top: 70px;
+  height: 100px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--font-default);
+  font-size: 4em;
+  font-weight: bold;
+  padding: 70px 0px 70px 0px;
+}
+
+.btn {
+  padding: 15px;
+  width: 15%;
+}
+
+.btn-header {
+  background-color: var(--font-default);
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--font-details);
+  box-shadow: var(--box-shadow);
+  transition: 0.3s;
+}
+
+.btn-header:hover {
+  transform: scale(1.2);
+}
+
+.btn-header:focus {
+  outline: none;
+  background-color: var(--background);
+}
