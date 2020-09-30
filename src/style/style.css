@@ -1,6 +1,6 @@
 /*header */
 .header-background {
-  background: url(/src/assets/background.png);
+  background: url(../assets/background.png);
   background-size: cover;
   height: 550px;
 }
@@ -63,34 +63,34 @@
 }
 
 .nature-card {
-  background-image: url(/src/assets/nature.png);
+  background-image: url(../assets/nature.png);
   background-size: cover;
   height: 330px;
   grid-area: nature;
 }
 
 .daily-card {
-  background-image: url(/src/assets/daily.png);
+  background-image: url(../assets/daily.png);
   background-size: cover;
   grid-area: daily;
 }
 
 .together-card {
-  background-image: url(/src//assets/together.png);
+  background-image: url(../assets/together.png);
   background-size: cover;
   height: 330px;
   grid-area: together;
 }
 
 .analisys-card {
-  background-image: url(/src/assets/analisys.png);
+  background-image: url(../assets/analisys.png);
   background-size: cover;
   height: 330px;
   grid-area: analisys;
 }
 
 .picture-card {
-  background-image: url(/src//assets/pictures.png);
+  background-image: url(../assets/pictures.png);
   background-size: cover;
   grid-area: picture;
 }
