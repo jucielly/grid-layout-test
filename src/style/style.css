@@ -52,9 +52,16 @@
 
 /*main-section-categories*/
 
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .category-card {
   transition: 0.3s;
   box-shadow: var(--box-shadow);
+  height: 40vh;
 }
 
 .category-card:hover {
@@ -65,7 +72,6 @@
 .nature-card {
   background-image: url(../assets/nature.png);
   background-size: cover;
-  height: 330px;
   grid-area: nature;
 }
 
@@ -78,14 +84,12 @@
 .together-card {
   background-image: url(../assets/together.png);
   background-size: cover;
-  height: 330px;
   grid-area: together;
 }
 
 .analisys-card {
   background-image: url(../assets/analisys.png);
   background-size: cover;
-  height: 330px;
   grid-area: analisys;
 }
 
@@ -97,7 +101,7 @@
 
 .categories-container {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 30vw 30vw 30vw;
   grid-template-rows: auto;
   column-gap: 20px;
   row-gap: 20px;
@@ -220,4 +224,8 @@
 
 .card-f {
   height: 90%;
+}
+
+button {
+  scroll-behavior: smooth;
 }
