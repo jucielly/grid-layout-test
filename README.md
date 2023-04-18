@@ -1,6 +1,4 @@
-# Layout Test
 
-you can check the result [here](https://jucielly.github.io/code-by-layout-test/)
 
 ### install and deploy
 
